@@ -109,6 +109,6 @@ button {
 }
 
 footer {
-    padding-left: 20px;
-    padding: 8px;
+    display: flex;
+    justify-content: center;
 }
