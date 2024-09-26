@@ -1,0 +1,114 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(14, 13, 13)
+}
+
+body {
+    background: rgb(245, 243, 243);
+    margin:0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+}
+
+
+header p, h1 {
+    text-align: center;
+    max-width: 60ch;
+    color: rgb(11, 97, 225)
+}
+
+main {
+    padding: 24px;
+    padding-top: 40px;
+    border-radius: 32px;
+    background: rgb(253, 254, 255);
+    box-shadow: rgb(244, 177, 152) 0px 0px 500px 40px;
+}
+
+section {
+    margin-top: 60px;
+}
+
+main section:first-child {
+    margin-top:0px;
+}
+
+h2 {
+    font-size: 1.15rem;
+    color: rgb(11, 97, 225); 
+}
+
+main h2, main p {
+ max-width: 65ch;
+}
+
+.about {
+    padding: 24px;
+    background-color: rgb(245, 243, 243);
+    border-radius: 24px;
+}
+
+img {
+    border-radius: 8px;
+    border: rgb(11, 97, 225) solid 3px;
+    width: 100%;
+    
+}
+
+.agency-dogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 20px;
+}
+
+.agency-dogs h2 {
+    grid-column:1/4;
+    font-size: 2rem;
+}
+
+form{
+    display: grid;
+    gap: 12px;
+    padding: 24px;
+    background-color: rgb(245, 243, 243);
+    border-radius: 24px;
+}
+
+label {
+    color: rgb(131, 123, 123);
+}
+
+input {
+    border:rgb(195, 188, 188) solid 1px;
+    border-radius: 5px;
+    min-height: 24px;
+}
+
+textarea {
+    border:rgb(195, 188, 188) solid 1px;
+    border-radius: 5px;
+    min-height: 48px;
+}
+
+button {
+    background-color:color: rgb(11, 97, 225);
+    border-radius: 24px;
+    color: white;
+    padding: 8px;
+    border: none;
+}
+
+footer {
+    padding-left: 20px;
+    padding: 8px;
+}
